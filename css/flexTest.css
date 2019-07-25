@@ -51,7 +51,7 @@ li span[class="andela"]{
    
 }
 li span[class="social"]{
-   color: black;
+   color: rgb(116, 118, 130);
    font: bold 25px Tahoma;
    align-self: flex-start; 
    flex-grow: 0;
@@ -136,6 +136,7 @@ li a[class="about"]{
 .sec2Box h2{
     margin-left: 40px;
     font: bold 25px black;
+    color: rgb(86, 86, 86);
     font-family: Verdana, Geneva, Tahoma, sans-serif
     
 }
@@ -179,6 +180,7 @@ li a[class="about"]{
     margin: 0px;
     margin-bottom: 10px;
     font: bold 18px Tahoma;
+    color: rgb(86, 86, 86);
 }
 #smallBox p{
     margin-top: 0px;
@@ -206,10 +208,12 @@ li a[class="about"]{
     width: 400px;
     height: 300px;
 }
-.upEvents{
+h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 40px;
     margin-top: 50px;
+    margin-bottom: 50px;
+    color: #2B2A2A;
 }
 
 #try1{
@@ -245,7 +249,7 @@ li a[class="about"]{
 #try1 li h4{
     
     font: bold 15px Tahoma;
-    color: black;
+    color: rgb(86, 86, 86);
     align-items: center;
     margin-left: 40px;
     margin-bottom: 2px;
@@ -319,7 +323,7 @@ li p{
 li button {
     background-color: rgb(229, 228, 246);
     border: none;
-    color: rgb(113, 113, 123);
+    color: rgb(49, 49, 49);
     font: bold 14px Ariel Black;
     padding: 10px;
     text-align: center;
@@ -441,9 +445,161 @@ li button {
 
 
 
+.sec2Box2{
+    display: flex;
+    flex-direction: row;
+    width: 86.8%;
+    height: 300px;
+    padding-top: 70px;
+    
+    
+}
+.btnOpenSec{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
 
+.sec2Box2 h1{
+    margin-left: 40px;
+    color: #2B2A2A;
+    font: bold 35px Tahoma;  
+    margin-bottom: 5px;
+    margin-left: 0px; 
+    
+}
+.sec2Box2 p{
+    font: normal 14px Tahoma;
+}
 
+.image9{
+    
+    
+    top: 110%;
+    left: 5%;
+    margin-left: 4%;
+    width: 400px;
+    height: 300px;
+}
 
+.sec2Box2 button[class="btnOpen"]{
+   background-color: #210796;
+   border: none;
+   color: #FFFFFF;
+   font: normal 12px Tahoma Black;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   max-width: 50px;
+   min-width: 30px;
+   margin: 10px;
+   margin-left: 0px;
+   box-shadow: 0 17px 10px -12px rgba(0, 0, 0, 4);
+   cursor: pointer;
+   transition: all ease-in-out;  
+   border-radius: 25px;
+   min-width: 110px;
+}
+
+/* THE GALLERY SECTION */
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery div{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 1px solid rgb(199, 198, 198);;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.gallery div img{
+    height: 200px;
+    width: 270px;
+    border-radius: 5%;
+}
+.gallery div h4{
+    font: bold 13px Tahoma;
+    align-self: flex-start;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.gallery div footer{
+    font: bold 11px Tahoma;
+    align-self: flex-start;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: rgb(128, 126, 126);
+}
+
+/* THE LAST SECTION  */
+.bottomSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: #F8F2F2;
+
+}
+.bottomSection h4{
+    align-self: flex-start;
+    margin-left: 40px;
+    font: bold 14px Tahoma;
+    color: rgb(74, 71, 206);
+}
+.bottomSection h3{
+    display: flex;
+    font: normal 18px Tahoma;
+    align-items: center;
+    margin-left: 0px;
+}
+.bottomSection h1{
+    align-self: flex-start
+}
+
+.bottomSection h1 span[class="andela2"]{
+    color: rgb(74, 71, 206);
+   font: bold 30px Tahoma;
+   flex-grow: 0;
+   margin-left: 0px;
+  
+   
+   align-self: flex-start;
+   padding: 0px;
+   
+   
+}
+.bottomSection h1 span[class="social2"]{
+   color: rgb(66, 67, 70);
+   font: bold 30px Tahoma;
+   align-self: flex-start; 
+   flex-grow: 0;
+   margin-left: 0px;
+   flex-basis: 10%;
+   justify-content: flex-start;
+   padding: 0px;
+
+}
+
+footer{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    background-color: white; 
+    font: normal 15px Tahoma;
+    margin-top: 0px;
+    padding-top: 0px;
+}
 
 
 
